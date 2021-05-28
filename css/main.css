@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    /* Colors */
+    --background-gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --primary: #310A90;
+    --secondary: #42E2B8;
+    --white: #ffffff;
+
+    /* Typography */
+    --font-base: 'Poppins', sans-serif;
+    --text-headline1: 700 95px/153.71px var(--font-base); /* -> letter-spacing: -1.5pt; */
+    --text-headline2: 700 59px/95.46px var(--font-base); /* -> letter-spacing: -0.5pt; */
+    --text-headline3: 700 48px/77.66px var(--font-base);
+    --text-headline4: 700 34px/55.01px var(--font-base);
+    --text-headline5: 700 24px/38.83px var(--font-base);
+    --text-body1: 16px/25.89px var(--font-base); /* -> letter-spacing: -0.5pt; */
+    --text-body2: 14px/22.65px var(--font-base); /* -> letter-spacing: -0.25pt; */
+    --text-button: 700 14px/22.65px var(--font-base); /* -> letter-spacing: 1.25pt; */
+    --text-caption: 12px/19.42px var(--font-base); /* -> letter-spacing: 0.4pt; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: var(--font-base);
+}
