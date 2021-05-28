@@ -1,5 +1,4 @@
 .header {
-    border: 1px solid black;
     block-size: 80px;
     display: flex;
     justify-content: space-between;
