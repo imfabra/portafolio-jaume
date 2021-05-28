@@ -1,0 +1,31 @@
+.button-primary {
+    font: var(--text-button);
+    letter-spacing: 1.25pt;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--primary);
+
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+}
+
+.button-secondary {
+    font: var(--text-button);
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--primary);
+    background-color: unset;
+    
+
+    padding-inline-start: 22px;
+    padding-inline-end: 22px;
+    padding-block-start: 11px;
+    padding-block-end: 11px;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+}
