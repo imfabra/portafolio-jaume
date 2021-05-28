@@ -1,0 +1,16 @@
+@import './hero__img.css';
+@import './hero__data.css';
+@import './hero__title.css';
+@import './hero__title-sup.css';
+@import './hero__title-main.css';
+@import './hero__description.css';
+
+.hero {
+    margin-block-start: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
