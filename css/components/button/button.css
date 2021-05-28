@@ -1,3 +1,5 @@
+@import './button--bg-white.css';
+
 .button-primary {
     display: block;
     font: var(--text-button);
