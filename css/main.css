@@ -2,6 +2,7 @@
 @import './components/button/button.css';
 @import './components/header/header.css';
 @import './components/hero/hero.css';
+@import './components/comment/comment.css';
 
 :root {
     /* Colors */
@@ -44,7 +45,6 @@ body {
 }
 
 .container {
-    border: 2px solid black;
     max-inline-size: 1440px;
     padding-inline-start: 16px;
     padding-inline-end: 16px;

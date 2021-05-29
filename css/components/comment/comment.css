@@ -1,0 +1,16 @@
+@import './comment__description.css';
+@import './comment__text.css';
+@import './commnet__icon.css';
+
+.comment {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: center;
+    color: var(--primary);
+}
