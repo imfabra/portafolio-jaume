@@ -3,6 +3,7 @@
 @import './components/header/header.css';
 @import './components/hero/hero.css';
 @import './components/comment/comment.css';
+@import './components/project-card/project-card.css';
 
 :root {
     /* Colors */

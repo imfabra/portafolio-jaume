@@ -1,0 +1,10 @@
+.project-card__img {
+    display: block;
+    inline-size: 328px;
+    block-size: auto;
+    
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}

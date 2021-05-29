@@ -1,0 +1,7 @@
+.project-card__description {
+    font: var(--text-body1);
+    letter-spacing: 0.5px;
+    color: var(--primary);
+
+    margin: 0;
+}

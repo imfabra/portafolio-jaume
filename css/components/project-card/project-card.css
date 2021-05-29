@@ -1,0 +1,12 @@
+@import './project-card__img.css';
+@import './project-card__link.css';
+@import './project-card__description.css';
+@import './project-card__btns.css';
+@import './project-card__item.css';
+@import './project-card__btn-secondary.css';
+
+/* 
+.project-card {
+    border: 2px solid black;
+} 
+*/

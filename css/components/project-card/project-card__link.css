@@ -1,0 +1,15 @@
+.project-card__link {
+    font: var(--text-headline5);
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--primary);
+    box-shadow: -4px 4px 0px #FFFFFF;
+
+    display: inline-block;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+
+    margin-block-end: 16px;
+}
