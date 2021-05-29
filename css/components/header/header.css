@@ -3,6 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
 }
 
 .header__logo {
