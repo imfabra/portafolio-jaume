@@ -1,8 +1,13 @@
 .hero__btn {
     inline-size: 44px;
     block-size: 44px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
+
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    padding-block-start: 0px;
+    padding-block-end: 0px;
 }

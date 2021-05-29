@@ -36,6 +36,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    inline-size: 100%;
     min-block-size: 100vh;
     
     font-family: var(--font-base);
@@ -43,6 +44,9 @@ body {
 }
 
 .container {
-    margin-inline-start: 16px;
-    margin-inline-end: 16px;
+    border: 2px solid black;
+    max-inline-size: 1440px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    margin: 0 auto;
 }

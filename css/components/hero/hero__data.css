@@ -1,3 +1,4 @@
 .hero__data {
     color: var(--primary);
+    inline-size: 100%;
 }
