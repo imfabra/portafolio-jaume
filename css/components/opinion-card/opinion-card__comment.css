@@ -1,0 +1,11 @@
+.opinion-card__comment {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 24px;
+    margin-inline-end: 24px;
+}

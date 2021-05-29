@@ -5,8 +5,6 @@
 @import './project-card__item.css';
 @import './project-card__btn-secondary.css';
 
-/* 
 .project-card {
-    border: 2px solid black;
+    margin-block-end: 40px;
 } 
-*/
