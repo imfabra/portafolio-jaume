@@ -1,0 +1,7 @@
+@import './footer__social.css';
+@import './footer__description.css';
+@import './footer__description-programmer.css';
+
+.footer {
+    margin-block-end: 24px;
+}

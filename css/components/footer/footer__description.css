@@ -1,0 +1,6 @@
+.footer__description {
+    font: var(--text-body1);
+    color: var(--white);
+    letter-spacing: 0.5px;
+    text-align: center;
+}
