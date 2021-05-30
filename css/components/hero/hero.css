@@ -5,8 +5,6 @@
 @import './hero__title-main.css';
 @import './hero__description.css';
 @import './hero__nav.css';
-@import './hero__btn.css';
-@import './hero__icon-btn.css';
 
 .hero {
     margin-block-start: 16px;
