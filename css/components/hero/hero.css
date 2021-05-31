@@ -5,6 +5,7 @@
 @import './hero__title-main.css';
 @import './hero__description.css';
 @import './hero__nav.css';
+@import './hero__btn-curriculum.css';
 
 .hero {
     margin-block-start: 16px;
@@ -14,5 +15,16 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+
+        /* margin-block-start: 40px;
+        margin-inline-start: 24px;
+        margin-inline-end: 24px; */
+    }
 }
 

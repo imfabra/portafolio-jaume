@@ -57,3 +57,10 @@ body {
     padding-inline-end: 16px;
     margin: 0 auto;
 }
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-inline-start: 50px;
+        padding-inline-end: 50px;
+    }
+}
