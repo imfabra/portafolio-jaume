@@ -1,0 +1,5 @@
+.contact-form__info {
+    font: var(--text-body1);
+    letter-spacing: 0.3px;
+    color: var(--white);
+}

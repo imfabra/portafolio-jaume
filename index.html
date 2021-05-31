@@ -46,7 +46,8 @@
             </li>
             <li class="social-nav__item hero__item">
               <a class="social-nav__btn button-secondary button--bg-white hero__btn" href="https://github.com/imfabra">
-                <img class="social-nav__icon hero__icon-btn" src="./images/icons/Icon-twitter_squared.png" alt="Icon github">
+                <img class="social-nav__icon hero__icon-btn" src="./images/icons/Icon-twitter_squared.png"
+                  alt="Icon github">
               </a>
             </li>
           </ul>
@@ -155,6 +156,33 @@
         </p>
       </div>
 
+      <section class="contact-form">
+        <a class="project-card__link" href="#">HABLEMOS</a>
+        <p class="contact-form__info">
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+        </p>
+        <form class="contact-form__form" action="" method="POST">
+          <div class="contact-form__campo">
+            <label class="contact-form__label" for="name">Nombre completo</label>
+            <input class="contact-form__input" required type="text" name="name" id="name" placeholder="Juan">
+          </div>
+
+          <div class="contact-form__campo">
+            <label class="contact-form__label" for="email">Correo electrónico</label>
+            <input class="contact-form__input" required type="email" name="email" id="email"
+              placeholder="Juan@gmail.com">
+          </div>
+
+          <div class="contact-form__campo">
+            <label class="contact-form__label" for="message">Mensaje</label>
+            <textarea class="contact-form__input" required name="message" id="message" placeholder="Mensaje" cols="30"
+              rows="10"></textarea>
+          </div>
+
+          <button class="button-primary" type="submit" style="border: none;">Enviar Mensaje</button>
+        </form>
+      </section>
+
     </main>
 
     <footer class="footer">
@@ -178,14 +206,15 @@
           </li>
           <li class="social-nav__item footer__item">
             <a class="social-nav__btn button-secondary button--bg-white footer__btn" href="https://github.com/imfabra">
-              <img class="social-nav__icon footer__icon-btn" src="./images/icons/Icon-twitter_squared.png" alt="Icon github">
+              <img class="social-nav__icon footer__icon-btn" src="./images/icons/Icon-twitter_squared.png"
+                alt="Icon github">
             </a>
           </li>
         </ul>
       </nav>
 
       <p class="footer__description">
-        <span class="footer__description-programmer">Hecho con ♡ de Jaume.</span> 
+        <span class="footer__description-programmer">Hecho con ♡ de Jaume.</span>
         <span class="footer__description-legal">Copyright 2021 - Todos los derechos reservados.</span>
       </p>
     </footer>

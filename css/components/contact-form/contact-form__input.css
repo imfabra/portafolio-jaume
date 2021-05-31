@@ -1,0 +1,12 @@
+.contact-form__input {
+    font: var(--text-body1);
+    letter-spacing: 0.5px;
+
+    border: none;
+    border-radius: 8px;
+
+    padding-block-start: 12px;
+    padding-block-end: 12px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+}

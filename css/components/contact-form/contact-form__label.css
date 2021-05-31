@@ -1,0 +1,5 @@
+.contact-form__label {
+    font: 700 16px/26px var(--font-base);
+    color: var(--primary);
+    padding-inline-start: 16px;
+}

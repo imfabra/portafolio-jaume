@@ -8,6 +8,7 @@
 @import './components/comment/comment.css';
 @import './components/project-card/project-card.css';
 @import './components/opinion-card/opinion-card.css';
+@import './components/contact-form/contact-form.css';
 @import './components/footer/footer.css';
 
 :root {

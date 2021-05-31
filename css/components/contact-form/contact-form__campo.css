@@ -1,0 +1,5 @@
+.contact-form__campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
