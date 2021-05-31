@@ -64,3 +64,10 @@ body {
         padding-inline-end: 50px;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding-inline-start: 128px;
+        padding-inline-end: 128px;
+    }
+}

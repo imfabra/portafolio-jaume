@@ -1,3 +1,9 @@
 .hero__title-main {
     font: var(--text-headline3);
 }
+
+@media only screen and (min-width: 1400px) {
+    .hero__title-main {
+        font: var(--text-headline2);
+    }
+}

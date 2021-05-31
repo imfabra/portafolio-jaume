@@ -2,3 +2,9 @@
     font: var(--text-body1);
     letter-spacing: 0.5px;
 }
+
+@media only screen and (min-width: 1400px) {
+    .hero__description {
+        inline-size: 450px;
+    }
+}
