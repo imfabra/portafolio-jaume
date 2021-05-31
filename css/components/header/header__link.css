@@ -1,0 +1,19 @@
+.header__link {
+    font: var(--text-button);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: 1.25px;
+}
+
+@media only screen and (max-width: 650px) {
+    .header__link {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header__link {
+        margin-block-start: 128px;
+    }
+}

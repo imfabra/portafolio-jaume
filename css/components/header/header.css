@@ -1,3 +1,7 @@
+@import './header__navbar.css';
+@import './header__link.css';
+@import './header__button.css';
+
 .header {
     block-size: 80px;
     display: flex;
@@ -14,4 +18,11 @@
 .header__logo {
     inline-size: 69px;
     block-size: 19.5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        justify-content: flex-start;
+        gap: 128px;
+    }
 }
