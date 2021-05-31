@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 1400px) {
     .header {
-        position: unset;
+        position: relative;
         backdrop-filter: blur(0px);
         -webkit-backdrop-filter: blur(0px);
         -moz-backdrop-filter: blur(0px);

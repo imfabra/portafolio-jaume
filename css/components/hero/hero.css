@@ -21,6 +21,34 @@
     .hero {
         flex-direction: row-reverse;
         justify-content: flex-start;
+        gap: 40px;
+
+        /* margin-block-start: 40px;
+        margin-inline-start: 24px;
+        margin-inline-end: 24px; */
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .hero {
+        margin-block-start: 60px;
+
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        gap: 80px;
+
+        /* margin-block-start: 40px;
+        margin-inline-start: 24px;
+        margin-inline-end: 24px; */
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .hero {
+        margin-block-start: 60px;
+
+        flex-direction: row-reverse;
+        justify-content: flex-start;
         gap: 115px;
 
         /* margin-block-start: 40px;

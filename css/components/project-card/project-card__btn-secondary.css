@@ -2,3 +2,10 @@
     margin-block-start: 8px;
     margin-block-end: 16px;
 }
+
+@media only screen and (min-width: 768px) {
+    .project-card__btn-secondary {
+        margin: 0;
+        margin-inline-end: 12px;
+    }
+}

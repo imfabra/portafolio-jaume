@@ -4,7 +4,17 @@
 @import './project-card__btns.css';
 @import './project-card__item.css';
 @import './project-card__btn-secondary.css';
+@import './project-card--reverse.css';
+@import './project-card__data.css';
 
 .project-card {
     margin-block-end: 40px;
-} 
+}
+
+@media only screen and (min-width: 768px) {
+    .project-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
