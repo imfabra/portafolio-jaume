@@ -3,16 +3,20 @@
 @import './header__button.css';
 
 .header {
+    position: sticky;
+    z-index: 12;
+    top: 0;
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+}
+
+.header-container {
     block-size: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    position: sticky;
-    top: 0;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    -moz-backdrop-filter: blur(10px);
 }
 
 .header__logo {
@@ -21,10 +25,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .header {
+    .header-container {
         justify-content: flex-start;
         gap: 128px;
-    }
+    }   
 }
 
 @media only screen and (min-width: 1400px) {
@@ -33,5 +37,7 @@
         backdrop-filter: blur(0px);
         -webkit-backdrop-filter: blur(0px);
         -moz-backdrop-filter: blur(0px);
+
+        gap: 128px;
     }
 }

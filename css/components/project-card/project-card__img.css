@@ -9,6 +9,12 @@
     margin-inline-end: auto;
 }
 
+@media only screen and (max-width: 320px) {
+    .project-card__img {
+        inline-size: 100% !important;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
     .project-card__img {
         inline-size: 652px;
