@@ -3,3 +3,11 @@
 @import './contact-form__label.css';
 @import './contact-form__input.css';
 @import './contact-form__info.css';
+
+@media only screen and (min-width: 1400px) {
+    .contact-form {
+        max-inline-size: 544px;
+        padding-block-end: 90px;
+        margin: 0 auto;
+    }
+}
