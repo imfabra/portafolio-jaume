@@ -1,3 +1,11 @@
 .opinion-card__img {
     margin-block-start: 20px;
 }
+
+@media only screen and (min-width: 1024px) {
+    .opinion-card__img {
+        margin-block-start: 80px;
+        block-size: 80px;
+        inline-size: 80px;
+    }
+}

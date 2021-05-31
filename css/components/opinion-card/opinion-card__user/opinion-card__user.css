@@ -7,3 +7,24 @@
     margin-inline-start: 24px;
     margin-inline-end: 24px;
 }
+
+@media only screen and (min-width: 1024px) {
+    .opinion-card__user {
+        margin-block-end: 80px;
+        font: var(--text-headline5);
+        font-size: 18px;
+        color: #310A90;
+        text-align: center;
+        opacity: 50%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .opinion-card__user {
+        margin-block-end: 80px;
+        font: var(--text-headline5);
+        color: #310A90;
+        text-align: center;
+        opacity: 50%;
+    }
+}
